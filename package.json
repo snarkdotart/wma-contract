@@ -1,0 +1,44 @@
+{
+  "name": "fcookies",
+  "version": "1.0.0",
+  "description": "Fortune Cookies Smart Contract Project",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0",
+    "@truffle/hdwallet-provider": "^1.0.24",
+    "bignumber.js": "^8.1.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "contract-killable": "^0.0.2",
+    "dotenv": "^8.2.0",
+    "truffle-assertions": "^0.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snarkdotart/ShitCoin-contract.git"
+  },
+  "keywords": [
+    "fortune",
+    "cookies",
+    "smart",
+    "contract",
+    "solidity"
+  ],
+  "author": "Robert Magier",
+  "contributors": [
+    "Robert Magier",
+    "Andrey Skurlatov"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snarkdotart/ShitCoin-contract/issues"
+  },
+  "homepage": "https://github.com/snarkdotart/ShitCoin-contract#readme"
+}
