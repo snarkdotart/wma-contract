@@ -35,7 +35,7 @@ module.exports = {
       provider: new HDWalletProvider(process.env.SECRET_KEY, "https://mainnet.infura.io/v3/" + process.env.PROJECT_ID),
       // provider: new HDWalletProvider(process.env.SECRET_KEY, "wss://10.11.0.11:8545"),
       gas: 7900000,
-      gasPrice: 7000000000, // 7 Gwei
+      gasPrice: 30000000000, // 7 Gwei
       network_id: 1,
       confirmations: 2,
       skipDryRun: true,
