@@ -16,7 +16,9 @@
     "dotenv": "^8.2.0",
     "truffle-assertions": "^0.8.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.11"
+  },
   "scripts": {
     "test": "truffle test"
   },

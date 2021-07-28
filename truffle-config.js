@@ -41,4 +41,12 @@ module.exports = {
       skipDryRun: true,
     }
   },
+
+  plugins: [
+    'truffle-plugin-verify'
+  ],
+
+  api_keys: {
+    etherscan: '3VKWW5SE31IDK6FW1U765GNUBB9AP1FV34'
+  }
 };
